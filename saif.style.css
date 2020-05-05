@@ -1,0 +1,164 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+body
+{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./assorted-decors-with-brown-rack-inside-store-683039.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    height: 20vh;
+    background-size: cover;
+    color: white;
+}
+.top-section
+{
+    text-align: center;
+    padding: 300px;
+}
+.top-section h1
+{
+    color: #b29577;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 10px;
+    font-size: 70px;
+    font-weight: 9000;
+}
+.top-section p
+{
+    padding: 3% 0% 7% 0%;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.top-section a
+{
+    color: white;
+    text-decoration: none;
+    padding: 12px 50px;
+    margin: 0% 3%;
+    border-radius: 3px;
+    border: 2px solid white;
+}
+.top-section a:hover
+{
+    background-color: #4a2c2a;
+    border:2px solid #4a2c2a;
+    padding: 15px 50px;
+    transition-duration: 0.2s;
+}
+.top-section .brown 
+{
+    background-color: #b29577;
+    border: 1px solid #b29577;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fifth-section .card
+{
+    width: 30%;
+    background-color: black;
+    margin-left: 10%;
+    border: 3px solid white;
+}
+.card h3
+{
+    margin:5%
+}
+.card li{
+    list-style: none;
+    margin: 5%;
+    column-width: 100%;
+}
+.container b
+{
+    color: #b29577;
+}
+.mega-container
+{
+    display: flex;
+}
+.contact
+{
+    margin-left: 15%;
+}
+.contact hr
+{
+    width: 120px;
+    margin: 10% 0% 20% 10%;
+    border: 1px solid #b29577;
+}
+.contact li{
+    list-style: none;
+    margin: 20% 0%;
+}
+.icons
+{
+display:flex;
+margin: 0% 5%;
+}
+
+.fa-instagram
+{
+    color:pink;
+    margin: 0% 15%;
+}
+.fa-facebook
+{
+    color: lightblue;
+    margin: 0% 15%;
+}
+.fa-reddit
+{
+    color:red;
+    margin: 0% 15%;
+}
