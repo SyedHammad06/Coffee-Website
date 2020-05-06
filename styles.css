@@ -1,66 +1,68 @@
-*
-{
-    padding: 0;
+@font-face{
+    src: url("Poppins-Bold.otf");
+    font-family: Pop;
+}
+*{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'Oswald', sans-serif;
 }
-body
-{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./assorted-decors-with-brown-rack-inside-store-683039.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    height: 20vh;
-    background-size: cover;
-    color: white;
-}
-.top-section
-{
-    text-align: center;
-    padding: 300px;
-}
-.top-section h1
-{
-    color: #b29577;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 10px;
-    font-size: 70px;
-    font-weight: 9000;
-}
-.top-section p
-{
-    padding: 3% 0% 7% 0%;
-    letter-spacing: 1px;
-    font-size: 14px;
-}
-.top-section a
-{
-    color: white;
-    text-decoration: none;
-    padding: 12px 50px;
-    margin: 0% 3%;
-    border-radius: 3px;
-    border: 2px solid white;
-}
-.top-section a:hover
-{
-    background-color: #4a2c2a;
-    border:2px solid #4a2c2a;
-    padding: 15px 50px;
-    transition-duration: 0.2s;
-}
-.top-section .brown 
-{
-    background-color: #b29577;
-    border: 1px solid #b29577;
-}
-.body-section-1{
+body{
+    width: 100%;
     height: 100vh;
-    background-color: #b29577;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    background-color: rgb(250, 227, 200);
+}
+.section-1{
+    background-image: url(/pics/Coffee.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95vh;
+    color: white;
+}
+.section-1-info{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-1-info img{
+    margin-top: 10rem;
+    filter: drop-shadow(5px 5px 10px black);
+    width: 20rem;
+    height: auto;
+}
+.section-1-info h1{
+    font-family: Pop;
+    font-size: 70px;
+    text-shadow: 5px 5px 10px black;
+    margin-bottom: 20px;
+}
+.section-1-info p{
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 10px black;
+}
+.but-1{
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 1rem 3rem;
+    text-shadow: 3px 3px 10px black;
+}
+.but-2{
+    background-color: tan;
+    color: white;
+    border: 2px solid tan;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 1rem 3rem;
+    text-shadow: 3px 3px 25px black;
 }
 .inner-section-1{
     height: 80vh;
@@ -75,92 +77,66 @@ body
 .inner-section-1 img:last-child{
     transform: translate(-55%, 30%);
 }
-.inner-section-2{
-    height: 80vh;
-    width: 40%;
+.section-2{
     display: flex;
-    justify-content: center;
-    flex-direction: column;
 }
-.inner-section-2 h1{
-    font-size: 35px;
-    padding-bottom: 25px;
-    width: 20rem;
-    border-bottom: 5px solid saddlebrown;
+.inner-section-2{
+    margin: 5rem 0;
 }
 .inner-section-2 ul{
     list-style: none;
+    padding-left: 20px;
 }
-.inner-section-2 ul li{
+.inner-section-2 li{
     display: flex;
     align-items: center;
+    margin: 30px 0;
 }
-.inner-section-2 img{
-    width: 60px;
-    margin: 30px 20px;
+.inner-section-2 h1{
+    margin-bottom: 1rem;
+}
+hr{
+    width: 100px;
+    border: 2px solid rgb(182, 146, 100);
+}
+.inner-section-2 h3{
+    padding: 10px 0;
 }
 .text{
-    width: 400px;  
+    width: 500px;
     text-align: justify;
 }
-.fifth-section .card
-{
-    width: 40%;
-    margin-top: 20%;
-    background-color: black;
-    margin-left: 10%;
-    border: 3px solid white;
-}
-.card h3
-{
-    margin:5%;
-}
-.card li{
-    list-style: none;
-    margin: 5%;
-    column-width: 100%;
-}
-.container b
-{
-    color: #b29577;
-}
-.mega-container
-{
+.section-3{
+    height: 90vh;
+    width: 100%;
+    background-image: url(/pics/main\ pic.png);
+    background-size: cover;
+    background-position: center;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
-.contact
-{
-    margin-left: 15%;
-    margin-top:20%;
+.section-3-info{
+    width: 40%;
+    padding: 100px;
 }
-.contact hr
-{
-    width: 120px;
-    margin: 10% 0% 20% 10%;
-    border: 1px solid #b29577;
+.section-3 h1{
+    margin: 20px 0;
+    text-shadow: 5px 5px 10px black;
 }
-.contact li{
-    list-style: none;
-    margin: 20% 0%;
+.section-3 hr{
+    width: 200px;
+    margin: 20px 0;
 }
-.icons
-{
-display:flex;
-margin: 0% 5%;
+.section-3 p{
+    width: 80%;
+    text-shadow: 3px 3px 10px black;
 }
-
-.fa-instagram
-{
-    color:pink;
-    margin: 0% 15%;
+.section-3-info .but-2{
+    margin: 20px 0;
+    box-shadow: 3px 3px 10px black;
 }
-.fa-facebook
-{
-    color: lightblue;
-    margin: 0% 15%;
-}
-.fa-reddit
-{
-    color:red;
-    margin: 0% 15%;
+.section-3 img{
+    filter: drop-shadow(5px 5px 10px black);
 }
