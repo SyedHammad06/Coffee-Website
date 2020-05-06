@@ -14,10 +14,11 @@ body{
     background-color: rgb(250, 227, 200);
 }
 .section-1{
-    background-image: url(/pics/Coffee.png);
+    background-image: url(Coffee.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 95vh;
     color: white;
 }
@@ -109,7 +110,8 @@ hr{
 .section-3{
     height: 90vh;
     width: 100%;
-    background-image: url(/pics/main\ pic.png);
+    background-image: url("pics/main\ pic.png");
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     display: flex;
